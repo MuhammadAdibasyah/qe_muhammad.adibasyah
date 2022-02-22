@@ -5,4 +5,11 @@ git merupakan salah satu cara untuk memudahkan kita agar lebih mudah untuk melak
 
 ### Task
 1.Membuat Branch pada github,berikut hasilnya
-!.[README](./screenshots/README.png)
+
+codenya :
+
+.[README.md](./praktikum/README.md)
+
+outputnya :
+
+!.[README].(./screenshots/README.png)
