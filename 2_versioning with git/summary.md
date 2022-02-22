@@ -12,4 +12,5 @@ codenya :
 
 outputnya :
 
-!.[README].(./screenshots/README.jpg)
+![README](./screenshots/README.jpg)
+
