@@ -12,4 +12,4 @@ codenya :
 
 outputnya :
 
-!.[README].(./screenshots/README.png)
+!.[README].(./screenshots/README.jpg)
