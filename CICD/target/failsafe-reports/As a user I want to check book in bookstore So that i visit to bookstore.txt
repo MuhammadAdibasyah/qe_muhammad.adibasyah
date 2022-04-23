@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: As a user I want to check book in bookstore So that i visit to bookstore
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 11.11 s <<< FAILURE! - in As a user I want to check book in bookstore So that i visit to bookstore
+As a user I want to check book in bookstore So that i visit to bookstore.GET Book - As admin i failed to see existing book with input data  Time elapsed: 11.11 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <400> but was <200>.
+
+

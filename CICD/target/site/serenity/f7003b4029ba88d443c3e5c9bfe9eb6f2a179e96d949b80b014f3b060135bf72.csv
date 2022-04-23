@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"As a user I want to check book in bookstore So that i visit to bookstore","GET Book - As admin i failed to see existing book with input data","FAILURE","2022-04-23T09:35:18.495+07:00[Asia/Bangkok]","0.0","10.81"
