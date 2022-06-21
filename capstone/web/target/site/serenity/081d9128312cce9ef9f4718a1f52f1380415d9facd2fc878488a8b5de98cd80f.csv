@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"As user i want to create account So that i can login","As user i have be able to success crete account","SUCCESS","2022-05-17T21:13:37.638+07:00[Asia/Bangkok]","0.0","14.09"
+"As user i want to create account So that i can login","As user i have failed to create account with registered data","SUCCESS","2022-05-17T21:13:52.547+07:00[Asia/Bangkok]","0.0","11.36"
+"As user i want to create account So that i can login","As user i have failed to create account with no input password","SUCCESS","2022-05-17T21:14:04.695+07:00[Asia/Bangkok]","0.0","14.97"

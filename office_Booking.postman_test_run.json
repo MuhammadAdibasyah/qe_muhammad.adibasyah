@@ -1,0 +1,173 @@
+{
+	"id": "e78ce80b-4635-46c9-8f94-52d616878851",
+	"name": "office_Booking",
+	"timestamp": "2022-06-17T07:48:45.783Z",
+	"collection_id": "0-e4590237-003c-4f6a-82cd-05845c2cc106",
+	"folder_id": "0-75dd37b7-2714-48b5-9d43-ae9e453b568c",
+	"environment_id": "0",
+	"totalPass": 5,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "93dc4cfe-4ac1-4e45-a8ce-881620d04f55",
+			"name": "sign up",
+			"url": "http://3.88.14.239:80/api/auth/signup",
+			"time": 735,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				735
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "7a5e29a7-c870-4d37-894d-ea34d83cbd06",
+			"name": "empty email",
+			"url": "http://3.88.14.239:80/api/auth/signup",
+			"time": 366,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				366
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			]
+		},
+		{
+			"id": "06aca6f4-b7b1-4cd6-9358-2594ed48d7ae",
+			"name": "empty username",
+			"url": "http://3.88.14.239:80/api/auth/signup",
+			"time": 852,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				852
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			]
+		},
+		{
+			"id": "1e907ed0-44f9-4296-97dc-d34000330db9",
+			"name": "empty password",
+			"url": "http://3.88.14.239:80/api/auth/signup",
+			"time": 712,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				712
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			]
+		},
+		{
+			"id": "6ff642c5-acb6-46ca-8152-a47261f8b456",
+			"name": "empty role",
+			"url": "http://3.88.14.239:80/api/auth/signup",
+			"time": 644,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				644
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 3309,
+	"collection": {
+		"requests": [
+			{
+				"id": "93dc4cfe-4ac1-4e45-a8ce-881620d04f55",
+				"method": "POST"
+			},
+			{
+				"id": "7a5e29a7-c870-4d37-894d-ea34d83cbd06",
+				"method": "POST"
+			},
+			{
+				"id": "06aca6f4-b7b1-4cd6-9358-2594ed48d7ae",
+				"method": "POST"
+			},
+			{
+				"id": "1e907ed0-44f9-4296-97dc-d34000330db9",
+				"method": "POST"
+			},
+			{
+				"id": "6ff642c5-acb6-46ca-8152-a47261f8b456",
+				"method": "POST"
+			}
+		]
+	}
+}

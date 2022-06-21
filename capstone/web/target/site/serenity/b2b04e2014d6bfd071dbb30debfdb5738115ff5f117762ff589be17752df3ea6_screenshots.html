@@ -1,0 +1,270 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="bootstrap-icons/font/bootstrap-icons.css"><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.11.3/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.11.3/datatables.min.js"></script>
+<script type="text/javascript" src="datatables/1.11.3/time-elapsed-dhms.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+<script>
+    jQuery.fn.dataTable.ext.type.order['time-elapsed-dhms-pre'] = function(data) {
+
+        var matches = data.match(/^(\d+(?:\.\d+)?)\s*([a-z]+)/i);
+        var multipliers = {
+            ms: 1,
+            s: 1000,
+            m: 60000,
+            h: 3600000,
+            d: 86400000
+        };
+
+        if (matches) {
+            var multiplier = multipliers[matches[2].toLowerCase()];
+            return parseFloat(matches[1]) * multiplier;
+        } else {
+            return -1;
+        };
+    };
+</script>
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/>
+<!--CHART.JS-->
+<script src="chartjs/chart.js"></script>
+<script src="chartjs/chartjs-plugin-datalabels@2.0.0"></script>
+<script src="chartjs/patternomaly.min.js"></script>
+<script>
+    // Register the plugin to all charts:
+    Chart.register(ChartDataLabels);
+</script>
+<!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="629cd3e2466bc6a7e82df0b335cf7cbdef1259e9379c35182eeffba8c04615e3.html">As A User I Want To Pay For All Items In The Basket</a></span>
+                > <span class="truncate-60"><a
+                    href="b2b04e2014d6bfd071dbb30debfdb5738115ff5f117762ff589be17752df3ea6.html">As user i have be able to success pay all items </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="bi bi-journal-check"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="bi bi-journal-text"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="bi bi-chat-text"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 17-05-2022 21:14</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fs-2 bi bi-chat-left-quote large-icon"></i>
+                                    <span class="story-header-title">As A User I Want To Pay For All Items In The Basket </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="bi bi-tag-fill"></i>&nbsp;<a class="tagLink" style="background:default;" href="612d9968525961aca8edfc2756ccd8ec0f3da9f2d707948bf0fbb46a58e8eeb9.html">Positive
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="bi bi-tag-fill"></i>&nbsp;<a class="tagLink" style="background:default;" href="2ed24fcfc949e94d020126ded2924f7aa6350f0c290b599652d1153215fd6f6a.html">Transaction
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">As user i have be able to success pay all items
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="6b10c986f19f4796d25ced5b119b9fd6eec3ee55e90d38fdd13308223c035a8b.png" title=" Given i am on the login page" width="1344"/>
+                <img src="6b10c986f19f4796d25ced5b119b9fd6eec3ee55e90d38fdd13308223c035a8b.png" title=" Open page" width="1344"/>
+                <img src="6b10c986f19f4796d25ced5b119b9fd6eec3ee55e90d38fdd13308223c035a8b.png" title=" Click login icon" width="1344"/>
+                <img src="bc280ee90c49691caf6aee51af8b7727012956a542e84f2e791354cb07c782a2.png" title=" Click login icon (completed)" width="1344"/>
+                <img src="bc280ee90c49691caf6aee51af8b7727012956a542e84f2e791354cb07c782a2.png" title=" Given i am on the login page (completed)" width="1344"/>
+                <img src="2dfb648463f0dc4e481d4219ccca852fa21aef90eabb6b5a6bdcd1fa7f4c6f76.png" title=" When i input valid email" width="1344"/>
+                <img src="2dfb648463f0dc4e481d4219ccca852fa21aef90eabb6b5a6bdcd1fa7f4c6f76.png" title=" Input email: debbb@gmail.com" width="1344"/>
+                <img src="2dfb648463f0dc4e481d4219ccca852fa21aef90eabb6b5a6bdcd1fa7f4c6f76.png" title=" When i input valid email (completed)" width="1344"/>
+                <img src="c0f0e4010db561ccb91dd86ffffb7e1e3580bbfb581f8c39e82d4c988d13fef4.png" title=" And i input valid password" width="1344"/>
+                <img src="c0f0e4010db561ccb91dd86ffffb7e1e3580bbfb581f8c39e82d4c988d13fef4.png" title=" Input password: 123" width="1344"/>
+                <img src="c0f0e4010db561ccb91dd86ffffb7e1e3580bbfb581f8c39e82d4c988d13fef4.png" title=" And i input valid password (completed)" width="1344"/>
+                <img src="056ba18912ee248ff356a9f258104506fbe0d29b32f5be58e38ea1d8e832d650.png" title=" And i click login button" width="1344"/>
+                <img src="056ba18912ee248ff356a9f258104506fbe0d29b32f5be58e38ea1d8e832d650.png" title=" Click login button" width="1344"/>
+                <img src="056ba18912ee248ff356a9f258104506fbe0d29b32f5be58e38ea1d8e832d650.png" title=" And i click login button (completed)" width="1344"/>
+                <img src="beb4ee8386510d687829b956d6c9eb204702f47f87928bfef1a20fa7491336c3.png" title=" And user click items" width="1344"/>
+                <img src="beb4ee8386510d687829b956d6c9eb204702f47f87928bfef1a20fa7491336c3.png" title=" Click items" width="1344"/>
+                <img src="f4072befa16ec57fd5cf564c8e1113fa56693219ad31818fda2a3f6da5e7c3c3.png" title=" Click items (completed)" width="1344"/>
+                <img src="f4072befa16ec57fd5cf564c8e1113fa56693219ad31818fda2a3f6da5e7c3c3.png" title=" Click items" width="1344"/>
+                <img src="9e6898b89105437632c92ea0dd2e65dc5ced81d8f3de1c4bb2012d8b237d3321.png" title=" Click items (completed)" width="1344"/>
+                <img src="9e6898b89105437632c92ea0dd2e65dc5ced81d8f3de1c4bb2012d8b237d3321.png" title=" Click items2" width="1344"/>
+                <img src="ab13518a19264707ec1306e86eba49d5ec3d307ef1eee0b72da1ad3c52f62e92.png" title=" Click items2 (completed)" width="1344"/>
+                <img src="ab13518a19264707ec1306e86eba49d5ec3d307ef1eee0b72da1ad3c52f62e92.png" title=" Click items2" width="1344"/>
+                <img src="c79b0994bb921ff8a7bd83930434853e6de20cf6f050b69454068a29aa08a761.png" title=" Click items2 (completed)" width="1344"/>
+                <img src="c79b0994bb921ff8a7bd83930434853e6de20cf6f050b69454068a29aa08a761.png" title=" Click items3" width="1344"/>
+                <img src="138bf13dcafb9b7548c0d18541968cbf918c0c9c8635fd43b7f0e25e20bbbbd3.png" title=" Click items3 (completed)" width="1344"/>
+                <img src="138bf13dcafb9b7548c0d18541968cbf918c0c9c8635fd43b7f0e25e20bbbbd3.png" title=" Click items3" width="1344"/>
+                <img src="7d95c891f82730767fa292a824a74f315d695992c810dcbd057d3ffd4226447a.png" title=" Click items3 (completed)" width="1344"/>
+                <img src="7d95c891f82730767fa292a824a74f315d695992c810dcbd057d3ffd4226447a.png" title=" And user click items (completed)" width="1344"/>
+                <img src="9e82605a9842dbdf36f523f3028ae2e2ddd9ab9d3de7ce8c6294e2d927e93921.png" title=" And user click icon basket" width="1344"/>
+                <img src="9e82605a9842dbdf36f523f3028ae2e2ddd9ab9d3de7ce8c6294e2d927e93921.png" title=" Click icon basket" width="1344"/>
+                <img src="9e82605a9842dbdf36f523f3028ae2e2ddd9ab9d3de7ce8c6294e2d927e93921.png" title=" And user click icon basket (completed)" width="1344"/>
+                <img src="9fa1040a72616db5c7aeb2e958892143e330a5fd0869b10acbc295793320873c.png" title=" And user click pay button" width="1344"/>
+                <img src="9fa1040a72616db5c7aeb2e958892143e330a5fd0869b10acbc295793320873c.png" title=" Click pay button" width="1344"/>
+                <img src="9fa1040a72616db5c7aeb2e958892143e330a5fd0869b10acbc295793320873c.png" title=" And user click pay button (completed)" width="1344"/>
+                <img src="6f546ae3d62de92ee305fa7b0069472eaf8c0ca335f2506a20262ba7c56da9c2.png" title=" Then user success to pay all items" width="1344"/>
+                <img src="6f546ae3d62de92ee305fa7b0069472eaf8c0ca335f2506a20262ba7c56da9c2.png" title=" Success pay" width="1344"/>
+                <img src="6f546ae3d62de92ee305fa7b0069472eaf8c0ca335f2506a20262ba7c56da9c2.png" title=" Then user success to pay all items (completed): <span class='success-color'>SUCCESS</span>" width="1344"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 3.2.1</span>
+</div>
+</body>
+</html>

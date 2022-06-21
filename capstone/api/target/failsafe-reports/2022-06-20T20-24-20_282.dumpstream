@@ -1,0 +1,4 @@
+# Created at 2022-06-20T20:24:23.148
+Boot Manifest-JAR contains absolute paths in classpath 'D:\kampus merdeka\QE_Capstone Kanbo\capstone\api\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

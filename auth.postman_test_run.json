@@ -1,0 +1,793 @@
+{
+	"id": "c2c900fc-575e-4bf4-bc3c-9e4aee4be5e6",
+	"name": "office_Booking",
+	"timestamp": "2022-06-18T09:16:34.802Z",
+	"collection_id": "0-e4590237-003c-4f6a-82cd-05845c2cc106",
+	"folder_id": "0-32d7a87f-d69c-4fd8-af9a-4fd7b8f64a40",
+	"environment_id": "0",
+	"totalPass": 23,
+	"totalFail": 2,
+	"results": [
+		{
+			"id": "93dc4cfe-4ac1-4e45-a8ce-881620d04f55",
+			"name": "sing up valid data",
+			"url": "http://3.88.14.239:80/api/auth/signup",
+			"time": 968,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				968
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "be6e4a1b-bb86-4941-a14c-d3230e5fb7d5",
+			"name": "sing up with empty data",
+			"url": "http://3.88.14.239:80/api/auth/signup",
+			"time": 823,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				823
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			]
+		},
+		{
+			"id": "7a5e29a7-c870-4d37-894d-ea34d83cbd06",
+			"name": "empty email",
+			"url": "http://3.88.14.239:80/api/auth/signup",
+			"time": 1209,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1209
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			]
+		},
+		{
+			"id": "61a9f4fb-3594-4f0c-9c81-998df123297a",
+			"name": "registered email",
+			"url": "http://3.88.14.239:80/api/auth/signup",
+			"time": 797,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				797
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			]
+		},
+		{
+			"id": "4a3357ec-d4fa-48fd-be26-d703cffb2f62",
+			"name": "email not use domain",
+			"url": "http://3.88.14.239:80/api/auth/signup",
+			"time": 751,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				751
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			]
+		},
+		{
+			"id": "068df0c3-73c6-4075-853d-b30ef29ff4ec",
+			"name": "email not use @",
+			"url": "http://3.88.14.239:80/api/auth/signup",
+			"time": 732,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				732
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			]
+		},
+		{
+			"id": "79af4790-4957-449b-9c72-f60af5862762",
+			"name": "registered username",
+			"url": "http://3.88.14.239:80/api/auth/signup",
+			"time": 957,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				957
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			]
+		},
+		{
+			"id": "06aca6f4-b7b1-4cd6-9358-2594ed48d7ae",
+			"name": "empty username",
+			"url": "http://3.88.14.239:80/api/auth/signup",
+			"time": 773,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				773
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			]
+		},
+		{
+			"id": "75e1344f-2761-45dd-9e64-3b6720496450",
+			"name": "username fill with number",
+			"url": "http://3.88.14.239:80/api/auth/signup",
+			"time": 905,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				905
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "a0419980-b608-4ca6-a6d2-dde65cf6816d",
+			"name": "username banyak char",
+			"url": "http://3.88.14.239:80/api/auth/signup",
+			"time": 545,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				545
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			]
+		},
+		{
+			"id": "1e907ed0-44f9-4296-97dc-d34000330db9",
+			"name": "empty password",
+			"url": "http://3.88.14.239:80/api/auth/signup",
+			"time": 866,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				866
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			]
+		},
+		{
+			"id": "12989b4e-cdbe-492e-b1d0-ce385b35248e",
+			"name": "password <6 char",
+			"url": "http://3.88.14.239:80/api/auth/signup",
+			"time": 823,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				823
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			]
+		},
+		{
+			"id": "89ff92a7-6487-41b8-a6d1-545b665422d1",
+			"name": "pass fill with number only",
+			"url": "http://3.88.14.239:80/api/auth/signup",
+			"time": 950,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				950
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f5458c2c-08b5-4feb-bff3-ec8512fec545",
+			"name": "pass fill with alfabet only",
+			"url": "http://3.88.14.239:80/api/auth/signup",
+			"time": 690,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				690
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "6ff642c5-acb6-46ca-8152-a47261f8b456",
+			"name": "empty role",
+			"url": "http://3.88.14.239:80/api/auth/signup",
+			"time": 566,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Status code is 400": true
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				566
+			],
+			"allTests": [
+				{
+					"Status code is 400": true
+				}
+			]
+		},
+		{
+			"id": "543fe916-c217-4ab5-a25e-41989fa6e16b",
+			"name": "role fill with number",
+			"url": "http://3.88.14.239:80/api/auth/signup",
+			"time": 883,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code is 400": false
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				883
+			],
+			"allTests": [
+				{
+					"Status code is 400": false
+				}
+			]
+		},
+		{
+			"id": "ae7ab357-ded4-4fb5-bbe8-224b9b530287",
+			"name": "role fill with not \"user\"",
+			"url": "http://3.88.14.239:80/api/auth/signup",
+			"time": 865,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code is 400": false
+			},
+			"testPassFailCounts": {
+				"Status code is 400": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				865
+			],
+			"allTests": [
+				{
+					"Status code is 400": false
+				}
+			]
+		},
+		{
+			"id": "3fbed6e5-be40-4c95-86c7-6d0aba8a20d3",
+			"name": "invalid url",
+			"url": "http://3.88.14.239:80/api/auth/signup123",
+			"time": 627,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				627
+			],
+			"allTests": [
+				{
+					"Status code is 404": true
+				}
+			]
+		},
+		{
+			"id": "65b964ad-a3db-4ec6-b2f2-eafb1822d8b3",
+			"name": "signin",
+			"url": "http://3.88.14.239:80/api/auth/signin",
+			"time": 619,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				619
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "47bc43c5-6538-4f5a-88eb-bcb0f572547b",
+			"name": "not register email",
+			"url": "http://3.88.14.239:80/api/auth/signin",
+			"time": 623,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				623
+			],
+			"allTests": [
+				{
+					"Status code is 401": true
+				}
+			]
+		},
+		{
+			"id": "72ca4ab1-ae6d-4149-9f33-5f77a9ca2058",
+			"name": "wrong pass",
+			"url": "http://3.88.14.239:80/api/auth/signin",
+			"time": 618,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				618
+			],
+			"allTests": [
+				{
+					"Status code is 401": true
+				}
+			]
+		},
+		{
+			"id": "1011e06f-05a8-4141-bd49-cf73f52e9020",
+			"name": "login with not use @",
+			"url": "http://3.88.14.239:80/api/auth/signin",
+			"time": 614,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				614
+			],
+			"allTests": [
+				{
+					"Status code is 401": true
+				}
+			]
+		},
+		{
+			"id": "bd3ed1c8-82e3-4a99-b40d-bedaac505c17",
+			"name": "login with not use domain",
+			"url": "http://3.88.14.239:80/api/auth/signin",
+			"time": 631,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {
+				"Status code is 401": true
+			},
+			"testPassFailCounts": {
+				"Status code is 401": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				631
+			],
+			"allTests": [
+				{
+					"Status code is 401": true
+				}
+			]
+		},
+		{
+			"id": "cba6c25c-b772-4f46-8644-ec467f568293",
+			"name": "logout",
+			"url": "http://3.88.14.239:80/api/auth/signout",
+			"time": 312,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				312
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "70cb5556-4f55-4254-ba8e-aded406fb2f8",
+			"name": "logout with invalid url",
+			"url": "http://3.88.14.239:80/api/auth/signouttt123",
+			"time": 362,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Status code is 404": true
+			},
+			"testPassFailCounts": {
+				"Status code is 404": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				362
+			],
+			"allTests": [
+				{
+					"Status code is 404": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 18509,
+	"collection": {
+		"requests": [
+			{
+				"id": "93dc4cfe-4ac1-4e45-a8ce-881620d04f55",
+				"method": "POST"
+			},
+			{
+				"id": "be6e4a1b-bb86-4941-a14c-d3230e5fb7d5",
+				"method": "POST"
+			},
+			{
+				"id": "7a5e29a7-c870-4d37-894d-ea34d83cbd06",
+				"method": "POST"
+			},
+			{
+				"id": "61a9f4fb-3594-4f0c-9c81-998df123297a",
+				"method": "POST"
+			},
+			{
+				"id": "4a3357ec-d4fa-48fd-be26-d703cffb2f62",
+				"method": "POST"
+			},
+			{
+				"id": "068df0c3-73c6-4075-853d-b30ef29ff4ec",
+				"method": "POST"
+			},
+			{
+				"id": "79af4790-4957-449b-9c72-f60af5862762",
+				"method": "POST"
+			},
+			{
+				"id": "06aca6f4-b7b1-4cd6-9358-2594ed48d7ae",
+				"method": "POST"
+			},
+			{
+				"id": "75e1344f-2761-45dd-9e64-3b6720496450",
+				"method": "POST"
+			},
+			{
+				"id": "a0419980-b608-4ca6-a6d2-dde65cf6816d",
+				"method": "POST"
+			},
+			{
+				"id": "1e907ed0-44f9-4296-97dc-d34000330db9",
+				"method": "POST"
+			},
+			{
+				"id": "12989b4e-cdbe-492e-b1d0-ce385b35248e",
+				"method": "POST"
+			},
+			{
+				"id": "89ff92a7-6487-41b8-a6d1-545b665422d1",
+				"method": "POST"
+			},
+			{
+				"id": "f5458c2c-08b5-4feb-bff3-ec8512fec545",
+				"method": "POST"
+			},
+			{
+				"id": "6ff642c5-acb6-46ca-8152-a47261f8b456",
+				"method": "POST"
+			},
+			{
+				"id": "543fe916-c217-4ab5-a25e-41989fa6e16b",
+				"method": "POST"
+			},
+			{
+				"id": "ae7ab357-ded4-4fb5-bbe8-224b9b530287",
+				"method": "POST"
+			},
+			{
+				"id": "3fbed6e5-be40-4c95-86c7-6d0aba8a20d3",
+				"method": "POST"
+			},
+			{
+				"id": "65b964ad-a3db-4ec6-b2f2-eafb1822d8b3",
+				"method": "POST"
+			},
+			{
+				"id": "47bc43c5-6538-4f5a-88eb-bcb0f572547b",
+				"method": "POST"
+			},
+			{
+				"id": "72ca4ab1-ae6d-4149-9f33-5f77a9ca2058",
+				"method": "POST"
+			},
+			{
+				"id": "1011e06f-05a8-4141-bd49-cf73f52e9020",
+				"method": "POST"
+			},
+			{
+				"id": "bd3ed1c8-82e3-4a99-b40d-bedaac505c17",
+				"method": "POST"
+			},
+			{
+				"id": "cba6c25c-b772-4f46-8644-ec467f568293",
+				"method": "POST"
+			},
+			{
+				"id": "70cb5556-4f55-4254-ba8e-aded406fb2f8",
+				"method": "POST"
+			}
+		]
+	}
+}

@@ -1,0 +1,6 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"As user I want to login So that i can see home page","As user i have failed to login with invalid password","SUCCESS","2022-05-17T21:12:06.91+07:00[Asia/Bangkok]","0.0","17.96"
+"As user I want to login So that i can see home page","As user i have failed to login with invalid email","SUCCESS","2022-05-17T21:12:25.767+07:00[Asia/Bangkok]","0.0","11.83"
+"As user I want to login So that i can see home page","As user i have failed to login with not input data","SUCCESS","2022-05-17T21:12:38.334+07:00[Asia/Bangkok]","0.0","14.04"
+"As user i want to create account So that i can login","As user i have failed to create account with registered data","SUCCESS","2022-05-17T21:13:52.547+07:00[Asia/Bangkok]","0.0","11.36"
+"As a user I want to pay for all items in the basket","As user i have fail to pay all items with not login","SUCCESS","2022-05-17T21:14:42.852+07:00[Asia/Bangkok]","0.0","16.17"

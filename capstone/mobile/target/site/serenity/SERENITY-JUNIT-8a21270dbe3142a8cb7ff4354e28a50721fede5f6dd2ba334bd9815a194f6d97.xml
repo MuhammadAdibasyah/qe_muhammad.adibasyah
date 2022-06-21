@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="As user I want to create account So that i can login and see homepage" skipped="0" tests="1" time="38.88" timestamp="2022-06-21 01:37:25"><testcase name="As user i have be able to success create account"><error message="Expected condition failed: waiting for element to be clickable: By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[2] (tried for 15 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">Expected condition failed: waiting for element to be clickable: By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[2] (tried for 15 second(s) with 500 milliseconds interval)</error><system-err>Expected condition failed: waiting for element to be clickable: By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[2] (tried for 15 second(s) with 500 milliseconds interval)&#13;
+test.mobile.pageobject.BasePageObject.waitUntilClickable(BasePageObject.java:29)&#13;
+test.mobile.pageobject.BasePageObject.onClick(BasePageObject.java:41)&#13;
+test.mobile.pages.RegisterPage.inputUsername(RegisterPage.java:67)&#13;
+test.mobile.stepdefenitions.RegisterSteps.userInputUsername(RegisterSteps.java:35)&#13;
+io.cucumber.java.Invoker.doInvoke(Invoker.java:66)&#13;
+io.cucumber.java.Invoker.invoke(Invoker.java:24)&#13;
+io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;
+io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)&#13;
+io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)&#13;
+io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)&#13;
+io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)&#13;
+io.cucumber.core.runner.TestStep.run(TestStep.java:64)&#13;
+io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)&#13;
+io.cucumber.core.runner.TestCase.run(TestCase.java:104)&#13;
+io.cucumber.core.runner.Runner.runPickle(Runner.java:73)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:258)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:57)&#13;
+</system-err></testcase></testsuite>

@@ -1,0 +1,6 @@
+test\mobile\pageobject\AndroidPageObject.class
+test\mobile\properties\ConfigProperties.class
+test\mobile\driver\AndroidDriverPool.class
+test\mobile\pageobject\BasePageObject.class
+test\mobile\driver\DriverPool.class
+test\mobile\properties\DriverAndroidProperties.class

@@ -1,0 +1,6 @@
+CucumberTestSuite.class
+test\mobile\stepdefenitions\LoginSteps.class
+test\mobile\pages\LoginPage.class
+test\mobile\pages\RegisterPage.class
+test\mobile\hooks\BaseDriverHooks.class
+test\mobile\stepdefenitions\RegisterSteps.class

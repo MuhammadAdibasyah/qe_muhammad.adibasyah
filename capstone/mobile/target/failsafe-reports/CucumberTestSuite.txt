@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: CucumberTestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 2, Skipped: 6, Time elapsed: 51.283 sec <<< FAILURE! - in CucumberTestSuite
+user input username(As user i have be able to success create account)  Time elapsed: 15.4 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[2] (tried for 15 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EQ55Q8H', ip: '192.168.100.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\kampus merdeka\QE_Capsto..., appPackage: com.mufidz.kanbo, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: D:\kampus merdeka\QE_Capsto..., autoGrantPermissions: true, automationName: UiAutomator2, newCommandTimeout: 1, noReset: true, platformName: android, waitForIdleTimeout: 1}, deviceApiLevel: 30, deviceManufacturer: Sony, deviceModel: SOV40, deviceName: BH9702CSGN, deviceScreenDensity: 420, deviceScreenSize: 1096x2560, deviceUDID: BH9702CSGN, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 2455, left: 0, top: 63, width: 1096}, waitForIdleTimeout: 1, warnings: {}, webStorageEnabled: false}
+Session ID: 6aefc246-900e-4597-9665-18ab6a88f5ba
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[2]}
+
+As user i have be able to success create account  Time elapsed: 0.001 sec  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[2] (tried for 15 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-EQ55Q8H', ip: '192.168.100.3', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: D:\kampus merdeka\QE_Capsto..., appPackage: com.mufidz.kanbo, autoGrantPermissions: true, automationName: UiAutomator2, databaseEnabled: false, desired: {app: D:\kampus merdeka\QE_Capsto..., autoGrantPermissions: true, automationName: UiAutomator2, newCommandTimeout: 1, noReset: true, platformName: android, waitForIdleTimeout: 1}, deviceApiLevel: 30, deviceManufacturer: Sony, deviceModel: SOV40, deviceName: BH9702CSGN, deviceScreenDensity: 420, deviceScreenSize: 1096x2560, deviceUDID: BH9702CSGN, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1, noReset: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, viewportRect: {height: 2455, left: 0, top: 63, width: 1096}, waitForIdleTimeout: 1, warnings: {}, webStorageEnabled: false}
+Session ID: 6aefc246-900e-4597-9665-18ab6a88f5ba
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View/android.view.View/android.widget.EditText[2]}
+

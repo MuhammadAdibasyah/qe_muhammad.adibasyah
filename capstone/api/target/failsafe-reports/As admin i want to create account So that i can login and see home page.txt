@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: As admin i want to create account So that i can login and see home page
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 33.167 s - in As admin i want to create account So that i can login and see home page
